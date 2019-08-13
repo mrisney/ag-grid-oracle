@@ -59,7 +59,7 @@ EnterpriseDatasource.prototype.getRows = function (params) {
   console.log(jsonRequest);
 
   let httpRequest = new XMLHttpRequest();
-  httpRequest.open('POST', 'http://localhost:9090/getRows');
+  httpRequest.open('POST', '/angular-crashes/getRows');
   httpRequest.setRequestHeader("Content-type", "application/json");
   httpRequest.send(jsonRequest);
   httpRequest.onreadystatechange = () => {

@@ -19,7 +19,7 @@ public class CrashesController {
     private CrashesDao crashesDao;
 
     @Autowired
-    public CrashesController(@Qualifier("crashesDao") CrashesDao tradeDao) {
+    public CrashesController(@Qualifier("crashesDao") CrashesDao crashesDao) {
         this.crashesDao = crashesDao;
     }
 
