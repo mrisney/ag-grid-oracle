@@ -17,7 +17,7 @@ import static com.itis.ag.grid.oracle.builder.EnterpriseResponseBuilder.createRe
 import static java.lang.String.format;
 import static java.util.stream.Collectors.toMap;
 
-@Repository("tradeDao")
+@Repository("crashesDao")
 public class CrashesDao {
 
     private JdbcTemplate template;
